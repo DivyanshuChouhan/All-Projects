@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    /* background-image: url(Gemini_Generated_Image_y3hodcy3hodcy3ho.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+.page-heading{
+    font-size: 3.5rem;
+    color: #fff;
+    
+}
+#form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    border: 1px solid black;
+    padding: 2rem 3rem;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    
+    box-shadow: rgba(71, 238, 241, 0.474) 0px 30px 50px;
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+}
+.inp{
+    font-size: 1.8rem;
+    width: 250px;
+    font-weight: 500;
+}
+
+#btn-cal{
+    width: 150px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+}
+#btn-cal:focus{
+    /* transform: scale(1.1);
+    transition: 1s 0s ease-in; */
+    box-shadow: rgb(103, 36, 238) 0px 5px 15px;
+}
+.lab{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    color: #fff;
+}
+.content h2{
+    font-size: 2.2rem;
+}
+.content p{
+    font-size: 1.2rem;
+}
+
+/* #guide-new{
+    gap: 0.2rem;
+} */

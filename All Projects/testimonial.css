@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.main-container{
+    background-color: #d6e1ef;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.testi{
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+    color: #181c20;
+}
+.head{
+    font-size: 4rem;
+    color: #480d63;
+}
+.head:hover{
+    letter-spacing: 1rem;
+    transition: 1s ease-in;
+}
+@media screen and (max-width:875px){
+    .head{
+       font-size: 3rem;
+    }
+}
+.card{
+    max-width: 450px;
+    margin-top: 5rem;
+    border: 3px solid #5304fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: 1s 0s ease-in-out;
+    box-shadow: 0 0 10px #5304fe;
+}
+.avtar{
+    width: 8rem;
+}
+.avtar:hover{
+    box-shadow: 0 0 10px #5304fe;
+    border-radius: 50%;
+}
+.rating{
+    font-size: 1.5rem;
+}
+.avtar-name{
+    color: #480d63;
+    font-size: 1.8rem;
+}
+.avtar-name:hover{
+    text-shadow: 0 0 1px #04a7fe;
+}
+.content-para{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 80%;
+    padding-bottom: 1.2rem;
+}
+.checked{
+    color: #5304fe ;
+}
